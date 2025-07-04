@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.thasadith-bold {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    background-color: black;
+    color: azure;
+    font-size: 18px;
+}
+
+.header {
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.img-head {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.narigato {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.menubar {
+  background-color: rgb(32, 243, 173);
+  color: black;
+  margin: 0px auto;
+  width: 1000px;
+  font-size: 21px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.ul-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(32, 243, 173);
+  border-radius: 10px;
+}
+
+.li-menu {
+  float: left;
+}
+
+.li-menu a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li-menu a:hover:not(.active) {
+  background-color: rgb(170, 0, 0);
+}
+
+.active {
+  background-color: rgb(255, 255, 255);
+}
+
+.content {
+  width: 1000px;
+	clear: both;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	background-color: rgba(32, 243, 173, 0.829);
+	padding: 10px;
+	border-radius: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  width: 1000px;
+  background-color: azure;
+  color: black;
+  margin: auto;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-top: 5PX;
+  padding-bottom: 5px;
+}
+
+img {
+  text-align: center;
+  border-radius: 100%;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 11%;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 13%;
+}
